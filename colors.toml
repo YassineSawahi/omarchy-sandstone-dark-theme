@@ -1,0 +1,48 @@
+# Sandstone Dark - beige ink on espresso, with earth-pigment accents.
+#
+# Warm beige text (#e8dcc6) on a roasted-espresso ground. The accents are
+# earth pigments - terracotta, burnt sienna, yellow ochre, olive, verdigris,
+# slate, plum, umber - lifted only as far as they need to be to read on
+# the dark:
+#   normal ANSI slots and accent  >= 4.5:1 against background
+#   bright ANSI slots and muted   >= 3.0:1
+# The wallpapers were toned through a gradient map built from these same
+# colours, so they sit inside the palette.
+
+mode = "dark"
+
+accent = "#d9764f"
+selection = "#4a3a2b"
+muted = "#7d6a55"
+
+background = "#211a15"
+dark_background = "#1b1511"
+darker_background = "#15100d"
+lighter_background = "#2d241d"
+
+foreground = "#e8dcc6"
+dark_foreground = "#a8977f"
+light_foreground = "#d6c8b0"
+bright_foreground = "#f4ecdd"
+
+red = "#e06a55"
+yellow = "#d8ac58"
+orange = "#dc8c48"
+green = "#a8b566"
+cyan = "#72b3a6"
+blue = "#89a8d0"
+magenta = "#cc86b0"
+brown = "#b28b64"
+
+bright_red = "#f08a74"
+bright_yellow = "#ecc67e"
+bright_green = "#c0cd80"
+bright_cyan = "#91cdbf"
+bright_blue = "#a6c1e2"
+bright_magenta = "#e0a3c6"
+
+# Focused windows: terracotta fading into yellow ochre, as in Sandstone, lit
+# a step brighter for the dark ground. Read by hyprland.lua.tpl's
+# hypr_gradient helper and the shell's shell_gradient.
+hyprland_active_border = "rgba(d9764fff) rgba(d8ac58ff) 45deg"
+hyprland_inactive_border = "rgba(4a3d31aa)"
